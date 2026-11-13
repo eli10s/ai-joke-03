@@ -3,6 +3,8 @@
 # outside the grader's container). Deterministic: the joke is a single
 # constant, so every run writes the same bytes, with no network access
 # and no randomness anywhere in the program.
+# Verified 2026-11-13: the joke is 86 characters (within the 1-280 limit),
+# and two local runs wrote byte-identical output (entry.txt, 88 bytes UTF-8).
 import os
 from pathlib import Path
 
