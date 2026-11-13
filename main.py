@@ -6,7 +6,7 @@
 import os
 from pathlib import Path
 
-JOKE = "My coding agent doesn't hallucinate libraries \u2014 it just imports them from a timeline where they exist."
+JOKE = "Vibe coding is just cuck coding \u2014 I watch the AI write my code and whisper 'good job.'"
 
 output_dir = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
 output_dir.mkdir(parents=True, exist_ok=True)
